@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+How to start:
 
-Things you may want to cover:
+* Create new project
+> rails new MvcStructure
 
-* Ruby version
+* If you got error
+`Could not find gem 'sqlite3 x64-mingw32' in any of the gem sources listed in your Gemfile. Run `bundle install` to install missing gems.`
+just run:
+> bundle install
 
-* System dependencies
+* Run project
+> rails server
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Checking list of routes
+> rake routes
